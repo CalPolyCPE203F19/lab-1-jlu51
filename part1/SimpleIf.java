@@ -5,7 +5,12 @@ class SimpleIf
       /* TO DO: Write an if statement to determine which
          argument is larger and return that value.
       */
-
-      return 0; // clearly not correct -- but testable
+      double answer;
+      if (x >= y) {
+         answer = x;
+      } else {
+         answer = y;
+      }
+      return answer; // clearly not correct -- but testable
    }
 }
